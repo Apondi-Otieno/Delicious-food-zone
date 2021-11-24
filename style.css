@@ -1,7 +1,6 @@
 html {
-    padding: 0.3rem;
+  padding: 3rem;
 }
-
 
 /*header section*/
 
@@ -13,61 +12,186 @@ header {
 
 }
 
-
-
-
-span{
- font-family: 'lobster';
- font-size: 3rem;
- margin-left: 5%;
+span {
+  font-family: "lobster";
+  font-size: 3rem;
+  margin-left: 5%;
 }
 
-h1 {
-    font-family: 'lobster';
-    letter-spacing: 3px;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 7rem;
+header > h1 {
+  font-family: "lobster";
+  letter-spacing: 3px;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 7rem;
 }
 
-p{
-    text-align: center;
-    font-family: 'poppins' ;
+header > p {
+  text-align: center;
+  font-family: "poppins";
 }
 
-button{
-    padding: 14px;
-    background-color: #f6b400;
-    border: none;
-    margin-left: 45%;
-    border-radius: 18px;
+header > button {
+  padding: 14px;
+  background-color: #f6b400;
+  border: none;
+  margin-left: 45%;
+  border-radius: 18px;
 }
 
-nav{
-    display: inline-block;
-  
-    align-items: right;
-    justify-content: space-between;
-    
+nav {
+  display: inline-block;
+  align-items: right;
+  justify-content: space-between;
 }
 
 nav ul {
-    height: 100%;
-    width: 80%;
-    display: flex;
-    
-    
+  height: 100%;
+  width: 70%;
+  display: flex;
 }
 ul li {
-    list-style: none;
-    
-    padding: 3rem;
+  list-style: none;
+  padding: 2.8rem;
 }
 
 ul li a {
-    font-size: 1rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    font-family: 'poppins';
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "poppins";
+}
+
+/*about us*/
+.about {
+  height: 40%;
+  padding-top: 1rem;
+  display: flex;
+}
+
+
+.col {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background-color: aliceblue;
+}
+.column {
+  width: 50%;
+  height: 50%;
+  padding-left: 2rem;
+}
+.columnn {
+  width: 50%;
+  padding: ;
+  margin-left: -150px;
+  
+}
+.col2 {
+  padding-top: 0.8rem;
+}
+.img1 {
+  margin-top: 15%;
+}
+
+
+
+
+
+
+/*menu*/
+
+.menu {
+  height: 70rem;
+  background-color: rgb(226, 219, 219);
+}
+
+.menu > h2 {
+  font-family: "lobster";
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.menu > p {
+  font-family: "poppins";
+  text-align: center;
+}
+
+.menu > button {
+  padding: 20px;
+  margin-left: 40%;
+  background-color: #f6b400;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.menu-img {
+  padding: 1rem;
+}
+
+.column1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.column2 {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image1 {
+  
+  padding-bottom: 15rem;
+  background-color: white;
+
+}
+
+/*why us section*/
+
+.why-us {
+  height: 60%;
+  background-color: #f6b4008c;
+  padding: 4px;
+}
+
+.services {
+  display: flex;
+  padding: 20px;
+}
+
+.service1 {
+  width: 30%;
+}
+
+/*testimonials*/
+
+.testimonials {
+  display: flex;
+  height: 70%;
+  padding: 20px;
+  background-image: url(img/img-7.png);
+  background-size: cover;
+}
+
+.t1 {
+  padding: 10px;
+  margin-left: 2%;
+}
+.wan {
+  padding: 1rem;
+  padding-bottom: 15rem;
+  border-color: cornsilk;
+  background-color: white;
+}
+
+
+.testimonials>p {
+    text-align: center;
 }
