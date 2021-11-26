@@ -6,29 +6,44 @@ html {
 
 header {
   height: 40rem;
-  background-image: url(img/img-5.png);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(img/spaghetti.jpg);
   background-size: cover;
   color: white;
-
 }
 
-span {
+.head {
+  display: flex;
+  width: 100%;
+  
+}
+
+
+h1{
   font-family: "lobster";
   font-size: 3rem;
-  margin-left: 5%;
+  margin-left: 1%;
+  font-weight: 500;
 }
 
-header > h1 {
+header > h2 {
   font-family: "lobster";
   letter-spacing: 3px;
   font-size: 3rem;
   text-align: center;
   margin-top: 7rem;
+  font-weight: 500;
+  color: white;
 }
 
 header > p {
   text-align: center;
   font-family: "poppins";
+  color: white;
 }
 
 header > button {
@@ -40,26 +55,28 @@ header > button {
 }
 
 nav {
-  display: inline-block;
-  align-items: right;
-  justify-content: space-between;
+  margin-left: 4%;
+
 }
 
 nav ul {
   height: 100%;
   width: 70%;
   display: flex;
+   
 }
 ul li {
   list-style: none;
-  padding: 2.8rem;
+  padding: 2rem;
+
 }
 
 ul li a {
-  font-size: 1rem;
-  color: black;
+  font-size: 1.3rem;
+  color:white;
   text-decoration: none;
   font-weight: 500;
+
   font-family: "poppins";
 }
 
@@ -69,7 +86,6 @@ ul li a {
   padding-top: 1rem;
   display: flex;
 }
-
 
 .col {
   display: flex;
@@ -85,7 +101,6 @@ ul li a {
 .columnn {
   width: 50%;
   padding: ;
-  margin-left: -150px;
   
 }
 .col2 {
@@ -95,23 +110,42 @@ ul li a {
   margin-top: 15%;
 }
 
+#about-txt {
+  padding: 1rem;
+  margin-left: 4%;
+}
 
+#about-txt >button {
+  padding: 1rem;
+  background-color: #f6b400;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  
+}
 
-
-
-
+#about-txt>p {
+  font-family: 'poppins';
+}
+#about-txt>h2 {
+  font-family: 'lobster';
+  font-weight: 500;
+  letter-spacing: 1px;
+}
 /*menu*/
 
 .menu {
-  height: 70rem;
-  background-color: rgb(226, 219, 219);
+  height: 80rem;
+  background-color: rgb(250, 250, 250);
 }
 
 .menu > h2 {
   font-family: "lobster";
-  letter-spacing: 4px;
   text-align: center;
   padding: 1rem;
+  font-weight: 500;
+  color: black;
 }
 
 .menu > p {
@@ -120,78 +154,125 @@ ul li a {
 }
 
 .menu > button {
-  padding: 20px;
+  padding: 1rem;
   margin-left: 40%;
-  background-color: #f6b400;
+  background-color: #7c6f4b;
   border-radius: 20px;
   border: none;
   color: white;
   font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 .menu-img {
   padding: 1rem;
 }
 
-.column1 {
+.coll1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 
-.column2 {
-  padding-top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .image1 {
-  
-  padding-bottom: 15rem;
-  background-color: white;
 
+ padding-bottom: 5rem;
+ width: 25%;
+ justify-content: space-evenly;
 }
+
+
+
 
 /*why us section*/
 
 .why-us {
-  height: 60%;
-  background-color: #f6b4008c;
+  height: 60rem;
   padding: 4px;
 }
 
 .services {
   display: flex;
   padding: 20px;
+  flex-wrap: wrap;
+  padding: 3rem;
+  margin-left: 2rem;
+  justify-content: space-evenly;
 }
-
+.why-us > img {
+  padding-bottom: 5rem;
+}
 .service1 {
   width: 30%;
 }
 
+.txt>p{
+ text-align: center;
+ font-family: 'poppins';
+}
+.txt>h2 {
+  font-family: 'lobster';
+  font-weight: 500;
+  font-size: 2.4rem;
+}
 /*testimonials*/
 
 .testimonials {
-  display: flex;
-  height: 70%;
+  height: 40%;
   padding: 20px;
-  background-image: url(img/img-7.png);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(img/img-7.png);
   background-size: cover;
 }
 
 .t1 {
-  padding: 10px;
-  margin-left: 2%;
+  padding: 1rem;
+  margin-left: 1%;
+  justify-content: space-evenly;
+  display: flex;
 }
 .wan {
   padding: 1rem;
-  padding-bottom: 15rem;
   border-color: cornsilk;
   background-color: white;
 }
 
+.testimonials > p,
+h2 {
+  text-align: center;
+}
+
+.testimonials > h2 {
+  font-family: "lobster";
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
 
 .testimonials>p {
-    text-align: center;
+  color: white;
+  font-family: 'poppins';
+  font-size: 1.4rem;
 }
+span {
+  color: #f6b400;
+}
+
+strong {
+  font-family: "lobster";
+  font-weight: 500;
+}
+
+.one {
+  margin-left: 30%;
+}
+ 
+
+/*form */
+
