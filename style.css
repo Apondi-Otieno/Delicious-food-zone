@@ -19,11 +19,9 @@ header {
 .head {
   display: flex;
   width: 100%;
-  
 }
 
-
-h1{
+h1 {
   font-family: "lobster";
   font-size: 3rem;
   margin-left: 1%;
@@ -56,24 +54,21 @@ header > button {
 
 nav {
   margin-left: 4%;
-
 }
 
 nav ul {
   height: 100%;
   width: 70%;
   display: flex;
-   
 }
 ul li {
   list-style: none;
   padding: 2rem;
-
 }
 
 ul li a {
   font-size: 1.3rem;
-  color:white;
+  color: white;
   text-decoration: none;
   font-weight: 500;
 
@@ -100,8 +95,6 @@ ul li a {
 }
 .columnn {
   width: 50%;
-  
-  
 }
 .col2 {
   padding-top: 0.8rem;
@@ -115,21 +108,20 @@ ul li a {
   margin-left: 4%;
 }
 
-#about-txt >button {
+#about-txt > button {
   padding: 1rem;
   background-color: #f6b400;
   border-radius: 20px;
   border: none;
   color: white;
   font-size: 1rem;
-  
 }
 
-#about-txt>p {
-  font-family: 'poppins';
+#about-txt > p {
+  font-family: "poppins";
 }
-#about-txt>h2 {
-  font-family: 'lobster';
+#about-txt > h2 {
+  font-family: "lobster";
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -174,16 +166,11 @@ ul li a {
   justify-content: space-evenly;
 }
 
-
 .image1 {
-
- padding-bottom: 5rem;
- width: 25%;
- justify-content: space-evenly;
+  padding-bottom: 5rem;
+  width: 25%;
+  justify-content: space-evenly;
 }
-
-
-
 
 /*why us section*/
 
@@ -207,12 +194,12 @@ ul li a {
   width: 30%;
 }
 
-.txt>p{
- text-align: center;
- font-family: 'poppins';
+.txt > p {
+  text-align: center;
+  font-family: "poppins";
 }
-.txt>h2 {
-  font-family: 'lobster';
+.txt > h2 {
+  font-family: "lobster";
   font-weight: 500;
   font-size: 2.4rem;
 }
@@ -255,9 +242,9 @@ h2 {
   color: white;
 }
 
-.testimonials>p {
+.testimonials > p {
   color: white;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-size: 1.4rem;
 }
 span {
@@ -272,7 +259,18 @@ strong {
 .one {
   margin-left: 30%;
 }
- 
 
 /*form */
 
+/*numbers*/
+
+.numbers {
+  height: 20rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(img/burger.png);
+    background-size: cover;
+}
